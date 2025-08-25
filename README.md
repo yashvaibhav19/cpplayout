@@ -5,7 +5,7 @@ Linux based command line utility to make C++ project directories
 
 # Installation guide  
 Download project.tar.gz and script.sh  
-Edit value of ARCHIVE_PATH to where your "project.tar.gz" is.  
+Edit value of ARCHIVE_PATH to where your "project.tar.gz" is in **script.sh** 
 ```bash
 ARCHIVE_PATH="/home/user/Downloads/project.tar.gz"
 ```
