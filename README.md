@@ -1,3 +1,9 @@
+<div style="text-align: center;">
+
+![Logo](assets/cpplayout-mascot.png "cpplayout")
+
+</div>
+
 # cpplayout
 Linux based command line utility to make C++ project directories  
 ![Project Structure](assets/simple.png)  
