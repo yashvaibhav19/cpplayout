@@ -22,6 +22,22 @@ chmod +x script.sh
 sudo cp script.sh /usr/local/bin/cpplayout
 ```  
 
+# Installation guide (without sudo)
+Follow the steps until sudo command.  
+
+```bash
+mkdir -p ~/.local/bin
+cp script.sh ~/.local/bin/cpplayout
+```   
+Open your ~/.bashrc file and append the following line at the bottom of the file  
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+You can restart the terminal or 
+```bash
+source ~/.bashrc
+```  
+
 You should be able to make new C++ projects using   
 ```bash
 cpplayout
